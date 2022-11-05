@@ -1,0 +1,21 @@
+<body>
+<script>
+var age = prompt ("Введите ваш возраст")
+count = age % 100; // остаток от целочисленного деления
+if (count >= 5 && count <= 20) {
+    alert(age + ' лет' );
+} else {
+   count = count % 10;
+   if (count == 1) {
+    alert(age + ' год' );
+   } else if (count >= 2 && count <= 4) {
+    alert(age + ' года' );
+   } else if (count == 0) {
+    alert(age + ' лет' );
+    } 
+    else {
+        alert(age + ' лет' );
+    } 
+}
+</script>  
+</body>
